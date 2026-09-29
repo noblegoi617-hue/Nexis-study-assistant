@@ -1,24 +1,4 @@
 # Nexis Study Assistant — v1.3.5.1
-
-A Manifest V3 Chrome extension for the user's configured study/test website workflow.
-
-## v1.3.5.1 changes
-
-- Fixed the **Minimize** button so it collapses the assistant body while question detection and AI processing continue in the background.
-- Fixed the **Close** button behavior: it hides the UI instead of destroying the processing context, so the assistant can continue working invisibly.
-- Added **Show Assistant** to the extension popup so a hidden assistant can be restored on the active LMS tab.
-- Made the **NEXIS AI** brand text a link to `https://guns.lol/knowxx001`.
-- Added the supplied click sound at `assets/nexis-click.mp3`; clicking the NEXIS brand plays the sound and opens the Guns.lol page in a new tab.
-- Added Instagram, Discord, and GitHub icon slots at the bottom of the assistant.
-- Discord is configured to `https://discord.gg/BPUrKgthYh`.
-- GitHub is intentionally disabled until a GitHub repository URL is supplied.
-- Instagram currently points to the generic Instagram homepage because a specific Instagram profile URL was not supplied. Replace `SOCIAL.instagram` in `content/ui-controller.js` with the user's profile URL before publishing.
-- No answer submission or Next/Finish automation was added.
-- 
-After replacing the Instagram and GitHub URLs, reload the unpacked extension from `chrome://extensions`.
-
-## GitHub upload description
-
 **Nexis Study Assistant** is a Manifest V3 Chrome extension designed as a configurable educational study assistant. It detects multiple-choice question content on the configured LMS/test page, sends the normalized question and options to the selected AI provider, and presents the AI-generated answer, explanation, key concepts, and confidence in a compact glass-style overlay.
 
 ### Features
