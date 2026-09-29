@@ -14,20 +14,7 @@ A Manifest V3 Chrome extension for the user's configured study/test website work
 - GitHub is intentionally disabled until a GitHub repository URL is supplied.
 - Instagram currently points to the generic Instagram homepage because a specific Instagram profile URL was not supplied. Replace `SOCIAL.instagram` in `content/ui-controller.js` with the user's profile URL before publishing.
 - No answer submission or Next/Finish automation was added.
-
-## Social links configuration
-
-Edit the `SOCIAL` object near the top of `content/ui-controller.js`:
-
-```js
-const SOCIAL = {
-  guns: "https://guns.lol/knowxx001",
-  instagram: "YOUR_INSTAGRAM_PROFILE_URL",
-  discord: "https://discord.gg/BPUrKgthYh",
-  github: "YOUR_GITHUB_REPOSITORY_URL"
-};
-```
-
+- 
 After replacing the Instagram and GitHub URLs, reload the unpacked extension from `chrome://extensions`.
 
 ## GitHub upload description
@@ -88,3 +75,5 @@ Before pushing to GitHub:
 ## Important scope
 
 Nexis is intended for the user's configured study/test website. It does not bypass authentication, CAPTCHA, cookies, or security controls, and it does not automatically submit answers, click Next, Finish, or Submit controls.
+
+this contant only education perpose 
